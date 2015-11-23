@@ -218,6 +218,8 @@ body {
     list-style-type: none;
     padding: 0.5em 1.1em;
     color: #000000; }
+    .main-menu li:first-child {
+      border-right: 1px solid #9b9b9b; }
     .main-menu li:nth-last-child(5) {
       border-left: 1px solid #9b9b9b; }
     @media only screen and (max-width: 1199px) {
