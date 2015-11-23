@@ -25,7 +25,7 @@ class Products_model extends CI_Model {
 				return $query->result_array();
 			}
 			else {
-				$query = $this->db->query("SELECT `Products`.*, `Products_".$lang."`.`img`, `Products_".$lang."`.`link`, `Products_".$lang."`.`productnaam`, `Products_".$lang."`.`productomschrijving`, `Products_".$lang."`.`specialeactie`, `Merken`.* FROM (`Products`) LEFT JOIN `Products_".$lang."` ON `Products`.`id` = `Products_".$lang."`.`id` LEFT JOIN `Merken` ON `Products`.`merk` = `Merken`.`merknaam` WHERE `Products`.`".$filter."` IS NOT NULL ORDER BY `Products`.`".$filter."` ASC, volgorde ASC");
+				$query = $this->db->query("SELECT `Products`.*, `Products_".$lang."`.`img`, `Products_".$lang."`.`link`, `Products_".$lang."`.`productnaam`, `Products_".$lang."`.`productomschrijving`, `Products_".$lang."`.`specialeactie`, `Merken`.* FROM (`Products`) LEFT JOIN `Products_".$lang."` ON `Products`.`id` = `Products_".$lang."`.`id` LEFT JOIN `Merken` ON `Products`.`merk` = `Merken`.`merknaam` WHERE `Products`.`".$filter."` IS NOT NULL ORDER BY FIELD(Products.categorie,'great_outdoors', 'happy_dreams', 'kids_love_snow', 'h-tech_must_haves', 'the_originals', 'his_gifts', 'deals_for_wheels', 'snow_essentials', 'winter_wonderland', 'around_the_world'), volgorde ASC");
 				return $query->result_array();
 			}
 		}
