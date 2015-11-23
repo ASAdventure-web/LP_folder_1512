@@ -544,7 +544,7 @@ img {
   left: 4%;
   top: 175px; }
 .product-container.groeneprijs-nl .bottom-container .price-tag .new-price, .product-container.groeneprijs-fr .bottom-container .price-tag .new-price, .product-container.groeneprijs-en .bottom-container .price-tag .new-price {
-  color: #75AE5C; }
+  color: #A7352B; }
 .product-container.groeneprijs-nl:before {
   background: url(//static.asadventure.com/includes/landingpage/2015_kerstfolder/images/overlay/groen_nl.jpg);
   background-size: cover; }
@@ -619,7 +619,7 @@ img {
   color: inherit; }
 
 .bottom-container .price-tag .special {
-  background: #778B96;
+  background: #487142;
   color: #fff;
   font-size: .75em;
   line-height: 1.5;
@@ -632,7 +632,7 @@ img {
   line-height: 1;
   text-decoration: line-through; }
 .bottom-container .price-tag .new-price {
-  color: #778B96;
+  color: #487142;
   font-size: 1.6em;
   font-weight: 600 !important;
   line-height: 1; }
