@@ -70,7 +70,7 @@ img {
             }
             .bottom-container {
                 .price-tag .new-price {
-                    color: $green;
+                    color: $red;
                 }
             }
         }
@@ -174,7 +174,7 @@ img {
 .bottom-container {
     .price-tag {
         .special {
-            background: $accent;
+            background: $green;
             color: #fff;
             font-size: .75em;
             line-height: 1.5;
@@ -189,7 +189,7 @@ img {
             text-decoration: line-through;
         }
         .new-price {
-            color: $accent;
+            color: $green;
             font-size: 1.6em;
             font-weight: 600 !important;
             line-height: 1;
