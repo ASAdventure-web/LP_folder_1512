@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Folder maart 2015 - Werktitel</title>
+	<title>December 2015 - Kerstfolder</title>
 	<?php include 'includes/links.php'; ?>
 </head>
 <body>
