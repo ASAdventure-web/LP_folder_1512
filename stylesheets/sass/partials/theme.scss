@@ -61,7 +61,7 @@ img, .lookbook, .exclusive-nl, .exclusive-fr, .exclusive-en, .groeneprijs-nl, .g
             }
             .bottom-container {
                 .price-tag .new-price {
-                    color: $red;
+                    color: $green;
                 }
             }
         }
@@ -180,9 +180,9 @@ img, .lookbook, .exclusive-nl, .exclusive-fr, .exclusive-en, .groeneprijs-nl, .g
             text-decoration: line-through;
         }
         .new-price {
-            color: $green;
+            color: $red;
             font-size: 1.6em;
-            font-weight: 600 !important;
+            font-weight: 700 !important;
             line-height: 1;
         }
         .currency {
