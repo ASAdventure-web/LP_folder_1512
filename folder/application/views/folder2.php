@@ -15,7 +15,7 @@
 		<!-- Eerste categoriehoofding -->
 		<div class="content-row z-shadow">
 			<?php if (($categorie == 'h-tech_must_haves') or ($categorie == 'the_originals') or ($categorie == 'deals_for_wheels') or ($categorie == 'snow_essentials') or ($categorie == 'around_the_world') or ($categorie == 'winter_wonderland')) { ?>
-			<img id="<?php echo strtolower($categorie) ?>" data-src="http://static.asadventure.com/includes/landingpage/2015_kerstfolder/images/tussentitels/<?php echo strtolower($categorie) ?>_<?php echo($lang) ?>.jpg">
+			<img id="<?php echo strtolower($categorie) ?>" class="tussentitel" data-src="http://static.asadventure.com/includes/landingpage/2015_kerstfolder/images/tussentitels/<?php echo strtolower($categorie) ?>_<?php echo($lang) ?>.jpg">
 			<?php } ?>
 		</div>
 
@@ -46,7 +46,7 @@
 
 					<!-- categorie herdefiniëren -->
 					<?php $categorie = $product["categorie"]; ?>
-						<img id="<?php echo strtolower($categorie) ?>" data-src="http://static.asadventure.com/includes/landingpage/2015_kerstfolder/images/tussentitels/<?php echo strtolower($categorie) ?>_<?php echo($lang) ?>.jpg">
+						<img id="<?php echo strtolower($categorie) ?>" class="tussentitel" data-src="http://static.asadventure.com/includes/landingpage/2015_kerstfolder/images/tussentitels/<?php echo strtolower($categorie) ?>_<?php echo($lang) ?>.jpg">
 					</div>
 					<div class="content-row">
 				<!-- end if -->

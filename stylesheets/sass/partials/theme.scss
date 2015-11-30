@@ -11,12 +11,12 @@
     color: $accent;
 }
 
-.gif-kerst, .image {
+.gif-kerst, .image, .lookbook, .tussentitel{
     image-rendering: optimizeSpeed; 
     image-rendering: -webkit-optimize-contrast; 
 }
 
-.gif-kerst, .image, .lookbook, .exclusive-nl, .exclusive-fr, .exclusive-en, .groeneprijs-nl, .groeneprijs-fr, .groeneprijs-en{
+.gif-kerst, .image, .lookbook, .tussentitel, .exclusive-nl, .exclusive-fr, .exclusive-en, .groeneprijs-nl, .groeneprijs-fr, .groeneprijs-en{
     image-rendering: -moz-crisp-edges; 
     image-rendering: -o-crisp-edges; 
     image-rendering: optimize-contrast; 
@@ -86,10 +86,11 @@
             font-family: "Open Sans";
             font-size: 2.5em;
             -webkit-font-smoothing: antialiased;
-            font-weight: 700;
+            font-weight: 100;
             text-align: center;
             text-rendering: optimizeLegibility;
             text-transform: uppercase;
+            width: 100%!important;
             @include tablet-landscape {
                 font-size: 2em;
             }
@@ -115,10 +116,11 @@
             line-height: 40px;
             font-size: 2.5em;
             -webkit-font-smoothing: antialiased;
-            font-weight: 700;
+            font-weight: 100;
             text-align: center;
             text-rendering: optimizeLegibility;
             text-transform: uppercase;
+            width: 100%!important;
             @include tablet-landscape {
                 font-size: 2em;
             }
@@ -235,6 +237,12 @@
     }
 }
 
+@media (max-width: 1199px) {
+    .gif {
+        margin-top: 11px;
+    }
+}
+
 @media (max-width: 979px) {
     .title-container {
         margin-top: -370px;
@@ -243,6 +251,11 @@
 
     .head {
         font-size: 2.3em;
+        line-height: 38px;
+    }
+
+    .gif {
+        margin-top: 18px;
     }
 }
 
@@ -251,11 +264,14 @@
     margin-top: -55%;
     margin-left: 25%;
     width: 75%;
-
     }
 
     .head {
-        font-size: 2.3em;
+        font-size: 1.3em;
+        line-height: 22px;
+    }
+    .sub {
+        font-size: 0.6em;
     }
 
     img.golf    {
@@ -264,6 +280,10 @@
 
     img.jaar   {
         width: 70px;
+    }
+
+    .gif{
+        margin:0;
     }
 }
 
