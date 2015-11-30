@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Arapey);
+
 %row-column{
 	background: white;
 	box-sizing: border-box;
@@ -354,11 +356,36 @@ img{
     }
 }
 .title-container {
-    margin-top: -600px;
+    position: absolute;
+    margin-top: -450px;
+    margin-left: 340px;
+    width:650px;
+    font-family: 'Arapey', serif;
+    color: #fff;
+    text-align: center;
 }
 
+.head {
+	font-size: 3em;
+    margin: 0px;
+    text-transform: uppercase;
+}
 
+.sub {
+	font-size: 1em;
+    line-height: 50px;
+    margin: -9px;
+    font-family: 'Open Sans', 'OpenSans', arial, sans-serif;
+    text-transform: uppercase;
+}
 
+img.golf {
+    width: 60px;
+    }
+
+img.jaar {
+	width:100px;
+}
 	
 //BOTTOM CONTAINER
 .bottom-container{

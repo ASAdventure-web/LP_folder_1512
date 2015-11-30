@@ -2,6 +2,7 @@
 /**************************************
 	STYLING FOR MAART-FOLDER
 **************************************/
+@import url(https://fonts.googleapis.com/css?family=Arapey);
 #lp-folder-wrapper {
   font-size: 15.5px;
   padding-bottom: 1px;
@@ -443,7 +444,31 @@ img {
     width: 100%; }
 
 .title-container {
-  margin-top: -600px; }
+  position: absolute;
+  margin-top: -450px;
+  margin-left: 340px;
+  width: 650px;
+  font-family: 'Arapey', serif;
+  color: #fff;
+  text-align: center; }
+
+.head {
+  font-size: 3em;
+  margin: 0px;
+  text-transform: uppercase; }
+
+.sub {
+  font-size: 1em;
+  line-height: 50px;
+  margin: -9px;
+  font-family: 'Open Sans', 'OpenSans', arial, sans-serif;
+  text-transform: uppercase; }
+
+img.golf {
+  width: 60px; }
+
+img.jaar {
+  width: 100px; }
 
 .bottom-container {
   box-sizing: border-box;
@@ -666,3 +691,27 @@ img {
     top: 12px;
     background-size: 70%;
     background-repeat: no-repeat; } }
+@media (min-width: 1199px) {
+  .title-container {
+    margin-left: 540px; } }
+@media (max-width: 979px) {
+  .title-container {
+    margin-top: -370px;
+    margin-left: 210px; }
+
+  .head {
+    font-size: 2.3em; } }
+@media (max-width: 767px) {
+  .title-container {
+    margin-top: -55%;
+    margin-left: 25%;
+    width: 75%; }
+
+  .head {
+    font-size: 2.3em; }
+
+  img.golf {
+    width: 43px; }
+
+  img.jaar {
+    width: 70px; } }

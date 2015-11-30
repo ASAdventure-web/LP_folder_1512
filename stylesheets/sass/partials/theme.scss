@@ -227,3 +227,43 @@
         }
     }
 }
+
+
+@media (min-width: 1199px) {
+    .title-container{
+        margin-left: 540px;
+    }
+}
+
+@media (max-width: 979px) {
+    .title-container {
+        margin-top: -370px;
+        margin-left: 210px;
+    }
+
+    .head {
+        font-size: 2.3em;
+    }
+}
+
+@media (max-width: 767px) {
+    .title-container {
+    margin-top: -55%;
+    margin-left: 25%;
+    width: 75%;
+
+    }
+
+    .head {
+        font-size: 2.3em;
+    }
+
+    img.golf    {
+        width: 43px;
+    }
+
+    img.jaar   {
+        width: 70px;
+    }
+}
+
