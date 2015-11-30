@@ -7,7 +7,7 @@
 		</div>-->
 
 <div class="gif">
-	<img class="gif-kerst" src="http://static.asadventure.com/includes/banner/category-page/151202_kerstfolder/GIF_ANIMATED_v8.gif" style="width:100%; height:100%;">
+	<iframe class="gif-kerst" style="width:100%; height: 500px;" src="https://www.youtube.com/embed/gAKeXZAzdsk?autoplay=1&loop=1&rel=0&showinfo=0&controls=0&hd=1&autohide=1&playlist=gAKeXZAzdsk" frameborder="0"></iframe>
 </div>
 <div class="title-container">
 	<div class="title">
