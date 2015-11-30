@@ -344,6 +344,19 @@ img{
 	}
 }
 
+.gif {
+	height: 100%;
+    max-height: 600px;
+    overflow: hidden;
+    img {
+    	margin-top: -9%;
+    	width: 100%;
+    }
+}
+.title-container {
+    margin-top: -600px;
+}
+
 
 
 	

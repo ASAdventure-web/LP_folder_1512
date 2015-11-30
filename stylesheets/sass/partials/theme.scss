@@ -11,11 +11,14 @@
     color: $accent;
 }
 
-img, .lookbook, .exclusive-nl, .exclusive-fr, .exclusive-en, .groeneprijs-nl, .groeneprijs-fr, .groeneprijs-en{
+.gif-kerst, .image {
     image-rendering: optimizeSpeed; 
+    image-rendering: -webkit-optimize-contrast; 
+}
+
+.gif-kerst, .image, .lookbook, .exclusive-nl, .exclusive-fr, .exclusive-en, .groeneprijs-nl, .groeneprijs-fr, .groeneprijs-en{
     image-rendering: -moz-crisp-edges; 
     image-rendering: -o-crisp-edges; 
-    image-rendering: -webkit-optimize-contrast; 
     image-rendering: optimize-contrast; 
     -ms-interpolation-mode: nearest-neighbor;
 }
