@@ -16,7 +16,7 @@
 			<p class="head">Make your winter<br><span><img class="golf" src="http://static.asadventure.com/includes/landingpage/2015_kerstfolder/images/overlay/golf.png"></span> memorable <span><img class="golf" src="http://static.asadventure.com/includes/landingpage/2015_kerstfolder/images/overlay/golf.png"></span></p>
 			<p class="sub">cadeautips om mee uit te pakken</p>
 		<?php } elseif ($lang == 'fr'){ ?>
-			<p class="head">Rendez votre hiver<br><span><img class="golf" src="http://static.asadventure.com/includes/landingpage/2015_kerstfolder/images/overlay/golf.png"></span> mémorable <span><img class="golf" src="http://static.asadventure.com/includes/landingpage/2015_kerstfolder/images/overlay/golf.png"></span></p>
+			<p class="head">Rendez votre hiver<br><span><img class="golf" src="http://static.asadventure.com/includes/landingpage/2015_kerstfolder/images/overlay/golf.png"></span> m&eacute;morable <span><img class="golf" src="http://static.asadventure.com/includes/landingpage/2015_kerstfolder/images/overlay/golf.png"></span></p>
 			<p class="sub">des cadeaux qie vont vous emballer</p>
 		<?php } else {?>
 			<p class="head">Make your winter<br><span><img class="golf" src="http://static.asadventure.com/includes/landingpage/2015_kerstfolder/images/overlay/golf.png"></span> memorable <span><img class="golf" src="http://static.asadventure.com/includes/landingpage/2015_kerstfolder/images/overlay/golf.png"></span></p>
