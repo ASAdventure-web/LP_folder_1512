@@ -15,7 +15,7 @@ class Products extends CI_Controller {
 		$data['page'] = $this->uri->segment(2);
 		
 		$data['products'] = $this->products_model->get_products($lang);
-		$data['photos'] = $this->photo_model->get_photos();
+		$data['photos'] = $this->photo_model->get_photos(false, $lang);
 		$data['links'] = $this->links_model->get_links($lang);	
 		$data['active'] = "alles";
 		$data['count'] = 0;
@@ -32,7 +32,7 @@ class Products extends CI_Controller {
 		$lang = $this->uri->segment(1);
 		$page = $this->uri->segment(2);
 		$data['products'] = $this->products_model->get_products($lang, $page);
-		$data['photos'] = $this->photo_model->get_photos($page);
+		$data['photos'] = $this->photo_model->get_photos($page, $lang);
 		$data['links'] = $this->links_model->get_links($lang);	
 		$data['active'] = $page;
 		$data['count'] = 0;
@@ -50,7 +50,7 @@ class Products extends CI_Controller {
 		$page = $this->uri->segment(2);
 
 		$data['products'] = $this->products_model->get_products($lang, $page);
-		$data['photos'] = $this->photo_model->get_photos($page);
+		$data['photos'] = $this->photo_model->get_photos($page, $lang);
 		$data['links'] = $this->links_model->get_links($lang);	
 		$data['active'] = $page;
 		$data['count'] = 0;
@@ -81,7 +81,7 @@ class Products extends CI_Controller {
 				$data['products'][$x]['categorie'] = 'fjallraven';
 			}
 		}
-		$data['photos'] = $this->photo_model->get_photos($page);
+		$data['photos'] = $this->photo_model->get_photos($page, $lang);
 		$data['links'] = $this->links_model->get_links($lang);	
 		$data['active'] = $page;
 		$data['count'] = 0;
