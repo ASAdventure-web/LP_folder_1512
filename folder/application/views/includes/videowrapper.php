@@ -1,17 +1,16 @@
-<!-- "<div class="video-wrapper">
-	<?php if($lang == 'nl' or $lang == 'en') { ?>
-<iframe src="https://www.youtube.com/embed/Gm5rpUZnhkE?rel=0&showinfo=0&controls=0&hd=1&autohide=1" frameborder="0"></iframe>
-		<?php } else { ?>
-<iframe src="https://www.youtube.com/embed/VWYtR18lrgo?rel=0&showinfo=0&controls=0&hd=1&autohide=1" frameborder="0"></iframe>
-		<?php } ?>
-		</div>-->
-
 <div class="gif">
-	<iframe class="gif-kerst" style="width:100%; height: 500px;" src="https://www.youtube.com/embed/gAKeXZAzdsk?autoplay=1&loop=1&rel=0&showinfo=0&controls=0&hd=1&autohide=1&playlist=gAKeXZAzdsk" frameborder="0"></iframe>
+	<main class="main options">
+			<img class="gifplayer" style="width='100%'; height='100%'" src="http://static.asadventure.com/includes/banner/category-page/151202_kerstfolder/GIF.jpeg" />
+		<script>
+			$(document).ready( function(){
+				$('.gifplayer').gifplayer();
+			});	
+		</script>
 </div>
 <div class="title-container">
 	<div class="title">
 		<span><img class="jaar" src="http://static.asadventure.com/includes/landingpage/2015_kerstfolder/images/overlay/2015.png"></span>
+
 		<?php if ($lang == 'nl'){?>
 			<p class="head">Make your winter<br><span><img class="golf" src="http://static.asadventure.com/includes/landingpage/2015_kerstfolder/images/overlay/golf.png"></span> memorable <span><img class="golf" src="http://static.asadventure.com/includes/landingpage/2015_kerstfolder/images/overlay/golf.png"></span></p>
 			<p class="sub">cadeautips om mee uit te pakken</p>
