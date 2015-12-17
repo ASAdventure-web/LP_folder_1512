@@ -376,7 +376,8 @@ form.mobile-nav {
   right: 0;
   z-index: 2;
   margin: 0;
-  padding: 4em 0; }
+  padding: 5em 0;
+  height: 8%; }
 .content-row .product-container.sold-out-nl::before, .content-block .product-container.sold-out-nl::before {
   content: "Uitverkocht"; }
 .content-row .product-container.sold-out-fr::before, .content-block .product-container.sold-out-fr::before {
@@ -440,22 +441,24 @@ img {
   max-height: 500px;
   overflow: hidden; }
   .gif img {
-    margin-top: -6%;
     width: 100%; }
+
+.gif-kerst {
+  width: 1170px; }
 
 .title-container {
   position: absolute;
-  margin-top: -390px;
-  margin-left: 340px;
+  top: 210px;
+  margin-left: 370px;
   width: 650px;
   color: #fff;
   text-align: center; }
 
 .head {
-  font-size: 3em;
+  font-size: 2.5em;
   margin: 0px;
   text-transform: uppercase;
-  line-height: 48px;
+  line-height: 37px;
   font-family: 'Arapey', serif; }
 
 .sub {
@@ -696,26 +699,45 @@ img.jaar {
     background-repeat: no-repeat; } }
 @media (min-width: 1199px) {
   .title-container {
-    margin-left: 540px; } }
-@media (max-width: 1199px) {
-  .gif {
-    margin-top: 11px; } }
-@media (max-width: 979px) {
-  .title-container {
-    margin-top: -330px;
-    margin-left: 210px; }
+    margin-left: 550px; }
 
   .head {
-    font-size: 2.3em;
-    line-height: 38px; }
+    font-size: 3em;
+    line-height: 48px; } }
+@media (max-width: 1199px) {
+  .gif {
+    margin-top: 11px;
+    height: 397px; }
+
+  .gif-kerst {
+    width: 940px; } }
+@media (max-width: 979px) {
+  .title-container {
+    margin-left: 280px;
+    width: 550px; }
+
+  .head {
+    font-size: 1.8em;
+    line-height: 32px; }
 
   .gif {
-    margin-top: 18px; } }
+    margin-top: 18px;
+    height: 302px; }
+
+  .gif-kerst {
+    width: 724px; } }
 @media (max-width: 767px) {
+  .gif {
+    background: url("http://static.asadventure.com/includes/banner/category-page/151202_kerstfolder/GIF.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat; }
+
   .title-container {
-    margin-top: -40%;
     margin-left: 25%;
     width: 75%; }
+
+  .main {
+    display: none; }
 
   .head {
     font-size: 1.3em;
@@ -731,4 +753,8 @@ img.jaar {
     width: 70px; }
 
   .gif {
-    margin: 0; } }
+    margin: 0;
+    height: 47vw; }
+
+  .gif-kerst {
+    width: 120%; } }

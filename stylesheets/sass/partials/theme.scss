@@ -233,37 +233,63 @@
 
 @media (min-width: 1199px) {
     .title-container{
-        margin-left: 540px;
+           margin-left: 550px;
     }
+
+    .head {
+    font-size: 3em;
+    line-height: 48px;
+}
 }
 
 @media (max-width: 1199px) {
     .gif {
         margin-top: 11px;
+        height: 397px;
     }
+
+    .gif-kerst {
+        width: 940px;
+    }
+
+
 }
 
 @media (max-width: 979px) {
     .title-container {
-        margin-top: -330px;;
-        margin-left: 210px;
+    margin-left: 280px;
+    width: 550px;
     }
 
     .head {
-        font-size: 2.3em;
-        line-height: 38px;
+    font-size: 1.8em;
+    line-height: 32px;
     }
 
     .gif {
         margin-top: 18px;
+        height: 302px;
+    }
+
+    .gif-kerst{
+        width: 724px;
     }
 }
 
 @media (max-width: 767px) {
+    .gif {
+        background: url("http://static.asadventure.com/includes/banner/category-page/151202_kerstfolder/GIF.jpeg");
+        background-size:contain;
+        background-repeat:no-repeat;
+    }
     .title-container {
-    margin-top: -40%;
     margin-left: 25%;
     width: 75%;
+    
+    }
+
+    .main{
+        display:none;
     }
 
     .head {
@@ -283,7 +309,12 @@
     }
 
     .gif{
-        margin:0;
+        margin: 0;
+        height: 47vw;
     }
+    .gif-kerst {
+        width: 120%; 
+    }
+
 }
 
